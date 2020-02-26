@@ -1,3 +1,10 @@
+<style>
+#header {
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:5px;
+}
 h1   {
 	color:white;
 font-family: verdana;
@@ -18,3 +25,4 @@ body {
 h1 {
 	color: white;
 }
+</style>
