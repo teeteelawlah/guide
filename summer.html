@@ -4,23 +4,61 @@
 	<title>Save Your Planet</title>
 	<link rel="stylesheet" href="style.css">
 <body>
-  <div id="introduction">
-	  <h1>SAVE YOUR PLANET</h1>
+	<div id="nav">
+		</div>
+  <div id="section">
+		<h1>SAVE YOUR PLANET</h1>
+		<ul>
+			<li>Media query</li>
+			<li>Flexbox</li>
+			<li>Anchor element</li>
+			<li>Layouts</li>
+		</ul>
 	  <p><br><strong><em>Sign a petition for environmental<br></strong>
-		<em>protection and give new life to your<br> planet </em><br></p>
-		<a href="http://www.dribbble.com" target="_blank">This is a link to dribbble</a>
+		<em>protection and give new life to your planet </em><br><br></p>
+		<a href="http://www.dribbble.com" target="_blank">This is a link to dribbble</a><br>
 		<img
 			src="https://images.pexels.com/photos/3908080/pexels-photo-3908080.jpeg?cs=srgb&dl=white-and-brown-eagle-on-brown-tree-branch-3908080.jpg&fm=jpg"
-			
 		/>
-<img src="https://images.pexels.com/photos/3789885/pexels-photo-3789885.jpeg?cs=srgb&dl=stainless-steel-spoon-on-black-ceramic-bowl-3789885.jpg&fm=jpg">
+<img src="https://images.pexels.com/photos/3789885/pexels-photo-3789885.jpeg?cs=srgb&dl=stainless-steel-spoon-on-black-ceramic-bowl-3789885.jpg&fm=jpg"><br><br>
+<div class="flex-container">
+	<div style="flex-basis:50px">SIGN</div>
+	<div style="flex-basis:50px">MORE</div>
+</div><br>
+<h2>DETAILS</h2>
 <form action="/action_page.php" method="get">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
+	<input type="text" name="username" placeholder="Username"><br>
+	<br>
+	<input type="password" name="psw" placeholder="Password"><br>
+	<br>
+	<input type="text" name="fname" placeholder="First name"><br><br>
+  <input type="text" name="lname" placeholder="Last name"><br><br>
+  <input type="email" name="email" placeholder="Email"><br><br>
+	<input type="radio" name="sex" value="male" checked> Male
+<input type="radio" name="sex" value="female"> Female
+<input type="submit" value="Submit"><br>
 </form>
+<h3>FOOD TYPES</h3>
+<form>
+<input type="checkbox" id="foodtype1" name="foodtype1" value="Carbohydrates">
+<label for="foodtype1"> Energy-giving Foods</label><br>
+<input type="checkbox" id="foodtype2" name="foodtype2" value="Proteins">
+<label for="foodtype2"> Body-building Foods</label><br>
+<input type="checkbox" id="foodtype3" name="foodtype3" value="Vitamins">
+<label for="foodtype3"> Disease-fighting Foods</label><br><br>
+</form>
+<select name="fruit">
+  <option value="oranges">Oranges</option>
+  <option value="bananas">Bananas</option>
+  <option value="apples">Apples</option>
+  <option value="watermelons">Watermelons</option>
+</select>
+<button type="button" onclick="alert('Hello Planet!')">Click Me!</button><br><br>
 	</div>
+	<div class="radio-toolbar">
+		<label><input type="radio" value="home" checked><span>Home</span></label>
+		<label><input type="radio" value="about"><span>About</span></label>
+		<label><input type="radio" value="contacts"><span>Contacts</span></label>
+	 </div>
 </body>
 </html>
