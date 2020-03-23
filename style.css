@@ -29,12 +29,12 @@ font-size: 250%;
 h2   {
 color:goldenrod;
 font-family: cursive;
-font-size: 150%;
+font-size: 100%;
 }
 h3   {
 color:blueviolet;
-font-family:Lucida Sans;
-font-size: 150%;
+font-family:cambria;
+font-size: 100%;
 }
 h4   {
 	color:slategray;
@@ -66,20 +66,20 @@ margin-left: 1px;
 }
 #one {
 	font-family: impact;
-	color:thistle;
-	font-size: 20px;
+	color:paleturquoise;
+	font-size: 18px;
 	font-family: courier;
 }
 #two {
 	font-family: impact;
 	color:lightgreen;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: courier;
 }
 #three {
 	font-family: impact;
-	color:navy;
-	font-size: 20px;
+	color:rosybrown;
+	font-size: 18px;
 	font-family: courier;
 	text-align:left;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 ul {
-color: bisque;
+color:gray;
 font-family: courier;
 font-size: 100%;
 }
@@ -116,3 +116,11 @@ color: peru;
 font-family: courier;
 font-size: 100%;
 }
+.city {
+	float: left;
+	margin: 10px;
+	padding: 15px;
+	width: 350px;
+	height: 350px;
+	border: 10px solid black;
+} 
